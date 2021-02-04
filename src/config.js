@@ -1,11 +1,13 @@
 const config = {
+  STRIPE_KEY: "pk_test_51IGV1ZKNsz68R766es8bIiDS0HVAbe9D72zzKADt2JBdx6AYW18Cc0QndZIwr26sZsYP5WVDVXSp4ZY7Vgh7t3FK00iKZ0R93Q",
+  MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
       REGION: "us-east-1",
       BUCKET: "notes-app-upload-lazerbeam",
     },
     apiGateway: {
       REGION: "us-east-1",
-      URL: "https://pnvwm4rmhk.execute-api.us-east-1.amazonaws.com/prod/",
+      URL: "https://pnvwm4rmhk.execute-api.us-east-1.amazonaws.com/prod",
     },
     cognito: {
       REGION: "us-east-1",
